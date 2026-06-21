@@ -187,7 +187,7 @@ abstract.hide = function () {
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Eastern and southern boundary areas show high sediment transport index in red/orange indicating high potential for soil/sediment movement, while central and western blue areas show low index indicating low transport and stable terrain.';
+                this._div.innerHTML = 'Blue areas have high Sediment Transport Index meaning steep, long slopes with high runoff potential to move large amounts of sediment, while red areas have low STI meaning gentle, short slopes with low runoff and little sediment transport.';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
